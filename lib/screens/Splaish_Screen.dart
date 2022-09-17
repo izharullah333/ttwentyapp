@@ -16,7 +16,7 @@ class _SplishScreenState extends State<SplishScreen> {
     navigattohome();
   }
   navigattohome()async{
-    await Future.delayed(const Duration(milliseconds: 1500),(){});
+    await Future.delayed(const Duration(seconds: 2),(){});
     Navigator.of(context).push(MaterialPageRoute(builder: (context){
       return const homeScreen();
     }));
