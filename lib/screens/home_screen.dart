@@ -8,7 +8,6 @@ import '../widgets/Drawer_Screen.dart';
 import '../widgets/Home_item_widgets.dart';
 import '../widgets/net_connection.dart';
 import 'History_screen.dart';
-
 class homeScreen extends StatelessWidget {
   const homeScreen({Key? key}) : super(key: key);
 

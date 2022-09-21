@@ -61,17 +61,18 @@ class _venuescreenState extends State<venuescreen> {
                       Text(venue.stadium,style: const TextStyle(
                         fontSize: 20
                       ),),
-                      Image.asset(
-                        venue.image,
-                        height: 141,
-                        width: double.infinity,
-                        fit: BoxFit.cover,
+                      Expanded(
+                        child: Image.asset(
+                          venue.image,
+                          height: 141,
+                          width: double.infinity,
+                          fit: BoxFit.cover,
+                        ),
                       )
                     ],
                   ),
                 );
               }
-
             );
           }
           else {
